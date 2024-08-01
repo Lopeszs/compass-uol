@@ -6,11 +6,10 @@
 #
 # Descrição: .....................
 #
-# Exemplo de uso: ./prcessamento_de_vendas
+# Exemplo de uso: por agendamento (crontab -e)
 #
 ###########################################################################
 
-#Vai até o diretório ecommerce para gerar o relatório
 cd Desafio_Sprint_1/Sprint1/ecommerce/
 
 # Cria o diretório "vendas" e copia o arquivo "dados_de_vendas.csv" para dentro dele
@@ -21,7 +20,7 @@ cp dados_de_vendas.csv vendas/
 cd vendas
 mkdir backup
 
-# Altera o formato da data para yyyymmdd e atribui a variável "date_f"
+# Altera o formato da data para yyyymmdd e atribui à variável "date_f"
 date_f=$(date +"%Y%m%d")
 
 # Copia o arquivo "dados_de_vendas.csv" para dentro da pasta "backup" com a data de execução
@@ -49,6 +48,8 @@ qtd_itens=$(cut -d',' -f2 "backup-dados-${date_f}.csv" | tail -n +2 | sort | uni
 
 # Cria o arquivo relatorio.txt e imprime as informações
 {
+    echo "................. RELATORIO DE VENDAS DO DIA $data_sys ................."
+    echo
     echo "Data do sistema: $data_sys"
     echo
     echo "Data da primeira venda: $primeira_data" 
@@ -59,9 +60,11 @@ qtd_itens=$(cut -d',' -f2 "backup-dados-${date_f}.csv" | tail -n +2 | sort | uni
     echo
     echo " ===== Primeiras 10 linhas do arquivo de backup dos dados: ====="
     echo
-} > relatorio.txt
+} > relatorio-${date_f}.txt
 
-head -n 10 backup-dados-${date_f}.csv ; head -n 10 backup-dados-${date_f}.csv >> relatorio.txt
+# Inclui as 10 primeiras linhas do arquivo de backup dos dados no relatório
+head -n 10 backup-dados-${date_f}.csv ; head -n 10 backup-dados-${date_f}.csv >> relatorio-${date_f}.txt
+echo >> relatorio-${date_f}.txt
 
 # Comprime arquivo de backup dos dados para .zip
 zip -r backup-dados-${date_f}.zip  backup-dados-${date_f}.csv
@@ -72,6 +75,3 @@ rm backup-dados-${date_f}.csv
 # Volta para o diretório de vendas e apaga o arquivo "dados_de_vendas.csv"
 cd ..
 rm dados_de_vendas.csv
-
-
-#./ ou .processamento_de_vendas - executa o script
