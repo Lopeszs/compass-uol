@@ -10,6 +10,8 @@
 #
 ###########################################################################
 
+#Vai até o diretório ecommerce para gerar o relatório
+cd Desafio_Sprint_1/Sprint1/ecommerce/
 
 # Cria o diretório "vendas" e copia o arquivo "dados_de_vendas.csv" para dentro dele
 mkdir vendas
@@ -30,9 +32,6 @@ cp dados_de_vendas.csv backup/dados-${date_f}.csv
 cd backup
 mv dados-${date_f}.csv backup-dados-${date_f}.csv
 
-# Cria um arquivo de texto
-touch relatorio.txt
-
 # Guarda a data do sistema
 data_sys=$(date +"%Y/%m/%d %H:%M")
 
@@ -48,7 +47,7 @@ ultima_data=$(echo "$somente_datas" | tail -n 1)
 # Guarda a quantidade de itens diferentes da lista
 qtd_itens=$(cut -d',' -f2 "backup-dados-${date_f}.csv" | tail -n +2 | sort | uniq | wc -l ) 
 
-# Imprime as informações no arquivo do relatório
+# Cria o arquivo relatorio.txt e imprime as informações
 {
     echo "Data do sistema: $data_sys"
     echo
