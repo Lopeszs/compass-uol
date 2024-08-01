@@ -4,7 +4,7 @@
 #
 # processamento_de vendas.sh - Script para o desafio final da Sprint 1 
 #
-# Descrição: .....................
+# Descrição: Script que gera relatórios de vendas a partir de dados
 #
 # Exemplo de uso: por agendamento (crontab -e)
 #
@@ -46,7 +46,7 @@ ultima_data=$(echo "$somente_datas" | tail -n 1)
 # Guarda a quantidade de itens diferentes da lista
 qtd_itens=$(cut -d',' -f2 "backup-dados-${date_f}.csv" | tail -n +2 | sort | uniq | wc -l ) 
 
-# Cria o arquivo relatorio.txt e imprime as informações
+# Cria o arquivo relatorio.txt e imprime as informações guardadas
 {
     echo "................. RELATORIO DE VENDAS DO DIA $data_sys ................."
     echo
