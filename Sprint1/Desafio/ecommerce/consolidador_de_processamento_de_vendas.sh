@@ -10,6 +10,11 @@
 #
 ###########################################################################
 
+# PARTE 4.3 DO DESAFIO
+
 # Navega até o diretório backup, procura todos os arquivos que começam com "relatorio"
 # no nome, os une e gera um relatorio_final.txt
 find vendas/backup/ -type f -name "relatorio*" -exec cat {} + > relatorio_final.txt
+
+
+

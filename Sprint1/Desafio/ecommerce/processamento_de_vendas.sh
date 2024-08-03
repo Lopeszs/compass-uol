@@ -4,13 +4,15 @@
 #
 # processamento_de vendas.sh - Script para o desafio final da Sprint 1 
 #
-# Descrição: Script que gera relatórios de vendas a partir de dados
+# Descrição: Script que gera relatórios de vendas a partir de dados obtidos
 #
 # Exemplo de uso: por agendamento (crontab -e)
 #
 ###########################################################################
 
-cd Desafio_Sprint_1/Sprint1/ecommerce/
+# PARTE 4.1 DO DESAFIO
+
+cd Desafio_Sprint_1/Sprint1/Desafio/ecommerce/
 
 # Cria o diretório "vendas" e copia o arquivo "dados_de_vendas.csv" para dentro dele
 mkdir vendas
@@ -63,7 +65,7 @@ qtd_itens=$(cut -d',' -f2 "backup-dados-${date_f}.csv" | tail -n +2 | sort | uni
 } > relatorio-${date_f}.txt
 
 # Inclui as 10 primeiras linhas do arquivo de backup dos dados no relatório
-head -n 10 backup-dados-${date_f}.csv ; head -n 10 backup-dados-${date_f}.csv >> relatorio-${date_f}.txt
+head -n 10 backup-dados-${date_f}.csv >> relatorio-${date_f}.txt
 echo >> relatorio-${date_f}.txt
 
 # Comprime arquivo de backup dos dados para .zip
@@ -75,3 +77,12 @@ rm backup-dados-${date_f}.csv
 # Volta para o diretório de vendas e apaga o arquivo "dados_de_vendas.csv"
 cd ..
 rm dados_de_vendas.csv
+
+
+# PARTE 4.2 DO DESAFIO
+
+# O agendamento foi configurado através do comando "crontab -e"
+# no crontab foi inserido o seguinte script:
+# 27 15 * * * /home/isabela/Desafio_Sprint_1/Sprint1/ecommerce/processamento_de_vendas.sh
+# O script agenda a execução do arquivo "processamento_de_vendas.sh" para todos os dias as 15:27
+# O script pode ser verificado utilizando o comando "crontab -l"
