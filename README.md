@@ -17,6 +17,15 @@ O intuito de utilizar o Linux como sistema operacional é encorajar o uso do Ter
 **Git e GitHub**  
 No curso de Git e GitHub, eu aprendi a gerenciar projetos de código de forma eficaz, começando com a configuração de repositórios e o uso de comandos fundamentais como git init, git add, git commit, e git push para registrar e sincronizar alterações. O curso abordou a criação e junção de branches, o armazenamento temporário de alterações com git stash, e a marcação de pontos importantes no desenvolvimento usando git tag. O curso também traz técnicas para compartilhar e atualizar repositórios, administrar submódulos, e realizar análises com git show e git diff. Ademais, foram discutidas práticas para melhorar commits e o uso do GitHub para gestão de tarefas e documentação com issues, projects, e wiki, além da formatação de documentos em Markdown, linguagem que será muito utilizada durante todo o programa da compass.
 
+___
+
+ ### **Sprint 2**
+**SQL**  
+No curso de SQL, aprendi a usar comandos fundamentais para manipulação e análise de dados, incluindo SELECT para seleção de colunas, DISTINCT para eliminar duplicatas, e WHERE para filtragem de dados. Explorei a ordenação com ORDER BY, a limitação de resultados com LIMIT, e o uso de operadores aritméticos, de comparação e lógicos. Aprofundei-me em funções agregadas como COUNT() e SUM(), e em agrupamentos com GROUP BY e filtragem de resultados agregados com HAVING. Também aprendi a combinar tabelas com JOIN, unir resultados com UNION, e utilizar subqueries. Aprendi a tratar dados, fazer conversões de unidades, manipulação de strings e datas, e criação de funções personalizadas. Por fim, estudei a manipulação de tabelas e colunas, incluindo criação, modificação e deleção.
+
+**AWS Partner**  
+No curso de AWS, aprendi a promover e vender soluções da AWS de forma eficaz, focando em como identificar e abordar as necessidades dos clientes. O curso abordou a compreensão dos principais serviços e soluções da AWS e a importância de alinhar esses serviços com os requisitos dos clientes para otimizar suas operações e reduzir custos. Também foram discutidas estratégias de vendas e técnicas para construir relacionamentos sólidos com clientes, destacando a importância de uma abordagem consultiva e personalizada. Além disso, o curso ofereceu insights sobre o uso das ferramentas e recursos de suporte da AWS para maximizar o sucesso das vendas e garantir a satisfação do cliente.
+
 ## Sprints 
 
 1. [Sprint 1](Sprint1/README.md)
