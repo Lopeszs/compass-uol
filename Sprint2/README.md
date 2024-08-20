@@ -25,33 +25,40 @@ Com as tabelas corretamente criadas. Identifiquei que alguns dados da tabela dad
 
 ![Evidencia 3](evidencias/evidencia_3.webp)  
 [Evidencia 3](evidencias/evidencia_3.webp)
+<br></br>
 
 Com todos os dados corretamente tratados, inseri eles em suas respectivas tabelas:
 
 ![Evidencia 4](evidencias/evidencia_4.webp)  
 [Evidencia 4](evidencias/evidencia_4.webp)
+<br></br>
 
 Por fim, o último passo para a conclusão da etapa 1 do desafio, foi a criação de uma seção para consultar cada uma das tabelas a fim de facilitar a visualização delas.
 
 ![Evidencia 5](evidencias/evidencia_5.webp)  
 [Evidencia 5](evidencias/evidencia_5.webp)
+<br></br>
 
 Dando inicio a etapa 2, criei o modelo dimensional lógico no esquema estrela com as dimensões dim_Cliente, dim_Carro, dim_Data e dim_Vendedor, todas relacionadas a tabela fato_Locacao, na qual foram colocados os atributos quantitativos e de métrica. O modelo finalizado ficou da seguinte forma:
 
 ![Evidencia 6](evidencias/evidencia_6.webp)  
 [Evidencia 6](evidencias/evidencia_6.webp)
+<br></br>
 
 Com o modelo dimensional lógico finalizado, utilizei-o como base e comecei a criação das views das dimensões no modelo físico:
 
 ![Evidencia 7](evidencias/evidencia_7.webp)  
 [Evidencia 7](evidencias/evidencia_7.webp)
+<br></br>
 
 Criadas as views das dimensões, parti para a criação da tabela fato, na qual aloquei os atributos de id de cada tabela, atributos quantitativos e as datas.
 
 ![Evidencia 8](evidencias/evidencia_8.webp)  
 [Evidencia 8](evidencias/evidencia_8.webp)
+<br></br>
 
 Por fim, criei novamente uma seção de consultas das views, para facilitar a análise dos dados
 
 ![Evidencia 9](evidencias/evidencia_9.webp)  
 [Evidencia 9](evidencias/evidencia_9.webp)
+<br></br>
