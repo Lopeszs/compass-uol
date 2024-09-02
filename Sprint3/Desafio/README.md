@@ -35,7 +35,7 @@ Na etapa 1, foi preciso preparar o ambiente para o desafio instalando as bibliot
 ![Evidencia 14](../evidencias/evidencia_14.webp)
 ![Evidencia 15](../evidencias/evidencia_15.webp)<br></br>
 
-6 - Para o requisito 6 fiz uma funcao para tratar os dados da coluna 'Reviews' a fim trabalhar com eles em formato numérico. Com os dados tratados, agrupei as reviews por aplicativo e guardei os 10 maiores valores encontrados ordenando os dados em ordem decrescente. Com os dados encontrados gerei o gráfico de barras utilizando o matplotlib e adicionei os números de reviews nas respectivas barras. Ademais, formatei os valores exibidos no eixo x do gráfico e obtive o seguinte resultado:
+6 - Para o requisito 6 fiz uma função para tratar os dados da coluna 'Reviews' a fim de trabalhar com eles em formato numérico. Com os dados tratados, agrupei as reviews por aplicativo e guardei os 10 maiores valores encontrados ordenando os dados em ordem decrescente. Com os dados encontrados, gerei o gráfico de barras utilizando o matplotlib e adicionei os números de reviews nas respectivas barras. Ademais, formatei os valores exibidos no eixo x do gráfico e obtive o seguinte resultado:
 
 ![Evidencia 16](../evidencias/evidencia_16.webp)
 ![Evidencia 17](../evidencias/evidencia_17.webp)<br></br>
