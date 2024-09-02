@@ -23,12 +23,22 @@ ___
 **SQL**  
 No curso de SQL, aprendi a usar comandos fundamentais para manipulação e análise de dados, incluindo SELECT para seleção de colunas, DISTINCT para eliminar duplicatas, e WHERE para filtragem de dados. Explorei a ordenação com ORDER BY, a limitação de resultados com LIMIT, e o uso de operadores aritméticos, de comparação e lógicos. Aprofundei-me em funções agregadas como COUNT() e SUM(), e em agrupamentos com GROUP BY e filtragem de resultados agregados com HAVING. Também aprendi a combinar tabelas com JOIN, unir resultados com UNION, e utilizar subqueries. Aprendi a tratar dados, fazer conversões de unidades, manipulação de strings e datas, e criação de funções personalizadas. Por fim, estudei a manipulação de tabelas e colunas, incluindo criação, modificação e deleção.
 
-**AWS Partner**  
+**AWS Partner: Sales Accreditation (Business)**  
 No curso de AWS, aprendi a promover e vender soluções da AWS de forma eficaz, focando em como identificar e abordar as necessidades dos clientes. O curso abordou a compreensão dos principais serviços e soluções da AWS e a importância de alinhar esses serviços com os requisitos dos clientes para otimizar suas operações e reduzir custos. Também foram discutidas estratégias de vendas e técnicas para construir relacionamentos sólidos com clientes, destacando a importância de uma abordagem consultiva e personalizada. Além disso, o curso ofereceu insights sobre o uso das ferramentas e recursos de suporte da AWS para maximizar o sucesso das vendas e garantir a satisfação do cliente.
+
+___
+
+ ### **Sprint 3**
+**Python**
+O curso de Python começou com uma introdução à linguagem e a configuração do ambiente de desenvolvimento. Aprendi a executar código Python e a trabalhar com variáveis, tipos de dados e operadores básicos, também estudei estruturas de controle, como if, for e while, para gerenciar o fluxo do programa. Explorei técnicas de manipulação de arquivos para leitura e escrita de dados, além disso aprofundei-me em comprehensions para criar listas e dicionários de maneira eficiente. O curso cobriu a definição e uso de funções, além de conceitos de programação orientada a objetos, incluindo classes, objetos e herança. Aprendi sobre gerenciamento de pacotes para instalar e manter dependências, e sobre isolamento de ambientes para gerenciar projetos de forma organizada e independente.
+
+**AWS Partner: Cloud Economics**
+O curso AWS Partner: Cloud Economics focou em como maximizar o valor econômico da nuvem para empresas. Comecei aprendendo sobre os princípios fundamentais da economia da nuvem e como a AWS pode ajudar a otimizar custos. Estudei as melhores práticas para calcular o custo total de propriedade (TCO) e analisar os benefícios financeiros da migração para a nuvem. O curso abordou técnicas para avaliar e controlar gastos com recursos, utilizar ferramentas de monitoramento e implementar estratégias de otimização. Também explorei casos de sucesso e estudos de caso que demonstraram como outras empresas reduziram custos e melhoraram a eficiência com a AWS. O treinamento incluiu a compreensão de diferentes modelos de precificação da AWS e a construção de uma estratégia de custo efetiva alinhada aos objetivos de negócios.
 
 ## Sprints 
 
 1. [Sprint 1](Sprint1/README.md)
 2. [Sprint 2](Sprint2/README.md)
+3. [Sprint 3](Sprint3/README.md)
 
 ___
