@@ -20,7 +20,7 @@ Na etapa 1, foi preciso preparar o ambiente para o desafio instalando as bibliot
 ![Evidencia 8](../evidencias/evidencia_8.webp)  
 ![Evidencia 9](../evidencias/evidencia_9.webp)<br></br>
 
-3 - No requisito 3 da etapa não foi preciso fazer tratamento de dados, o código remove as linhas duplicadas e conta quantos apps de cada categoria há no dataset com base nacoluna 'Category'. Com a quantidade de apps de cada categoria guardada, gerei o gráfico de pizza utilizando a biblioteca do matplotlib e configurei as posições das porcentagens para elas não se sobrescreverem, pois há muitos dados no gráfico. O resultado ficou da seguinte forma:
+3 - No requisito 3 da etapa não foi preciso fazer tratamento de dados, o código remove as linhas duplicadas e conta quantos apps de cada categoria há no dataset com base na coluna 'Category'. Com a quantidade de apps de cada categoria guardada, gerei o gráfico de pizza utilizando a biblioteca do matplotlib e configurei as posições das porcentagens para elas não se sobrescreverem, pois há muitos dados no gráfico. O resultado ficou da seguinte forma:
 
 ![Evidencia 10](../evidencias/evidencia_10.webp)
 ![Evidencia 11](../evidencias/evidencia_11.webp)<br></br>
