@@ -1,7 +1,7 @@
 # Etapas
 
 
-1. [Etapas 4.1 e 4.2](desafio.ipynb)
+1. [Etapas 4.1 e 4.2](desafio.ipynb)<br></br>
 
 Para dar início ao desafio, criei um arquivo 'desafio.ipynb' no JupyterLab e incluí o arquivo cvs usado no desafio 'googleplaystore.csv'.
 
