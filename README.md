@@ -29,10 +29,10 @@ No curso de AWS, aprendi a promover e vender soluções da AWS de forma eficaz, 
 ___
 
  ### **Sprint 3**
-**Python**
+**Python**  
 O curso de Python começou com uma introdução à linguagem e a configuração do ambiente de desenvolvimento. Aprendi a executar código Python e a trabalhar com variáveis, tipos de dados e operadores básicos, também estudei estruturas de controle, como if, for e while, para gerenciar o fluxo do programa. Explorei técnicas de manipulação de arquivos para leitura e escrita de dados, além disso aprofundei-me em comprehensions para criar listas e dicionários de maneira eficiente. O curso cobriu a definição e uso de funções, além de conceitos de programação orientada a objetos, incluindo classes, objetos e herança. Aprendi sobre gerenciamento de pacotes para instalar e manter dependências, e sobre isolamento de ambientes para gerenciar projetos de forma organizada e independente.
 
-**AWS Partner: Cloud Economics**
+**AWS Partner: Cloud Economics**  
 O curso AWS Partner: Cloud Economics focou em como maximizar o valor econômico da nuvem para empresas. Comecei aprendendo sobre os princípios fundamentais da economia da nuvem e como a AWS pode ajudar a otimizar custos. Estudei as melhores práticas para calcular o custo total de propriedade (TCO) e analisar os benefícios financeiros da migração para a nuvem. O curso abordou técnicas para avaliar e controlar gastos com recursos, utilizar ferramentas de monitoramento e implementar estratégias de otimização. Também explorei casos de sucesso e estudos de caso que demonstraram como outras empresas reduziram custos e melhoraram a eficiência com a AWS. O treinamento incluiu a compreensão de diferentes modelos de precificação da AWS e a construção de uma estratégia de custo efetiva alinhada aos objetivos de negócios.
 
 ## Sprints 
