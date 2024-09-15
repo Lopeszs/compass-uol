@@ -61,7 +61,7 @@
 
 ![Evidencia 3](evidencias/evidencia_3.webp)<br></br>
 
-**Etapa 4:** Ao executar o código da etapa 4, todos os dados da coluna '#1 Movie' foram percorridos e foi contado quantas vezes o filme aparece no dataset. As quantidades encontradas por filmes e o nome dos filmes foram exibidos em uma lista no arquivo etapa-4.txt em ordem de frequência decrescente:
+**Etapa 4:** Ao executar o código da etapa 4, todos os dados da coluna '#1 Movie' foram percorridos e então foi contado quantas vezes o filme aparece no dataset. As quantidades encontradas por filmes e o nome dos filmes foram exibidos em uma lista no arquivo etapa-4.txt em ordem de frequência decrescente:
 
 ![Evidencia 4](evidencias/evidencia_4.webp)<br></br>
 
