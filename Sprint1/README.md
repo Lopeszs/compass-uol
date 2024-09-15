@@ -11,7 +11,7 @@ Na pasta do projeto estava o arquivo README.md de apresentação e ele imediatam
 link para o repositório: https://github.com/Lopeszs/compass-uol.git
 <br></br>
 
-Com o repositório já vinculado ao VSCode, dei inicio a Etapa 4.1 do Desafio Final, criei o arquivo processamento_de_vendas.sh e segui as instruções passadas no slide do desafio utilizando os comandos que aprendi no curso de Linux da Udemy juntamente com informações sobre shell que obti assistindo algumas aulas de um curso de Shell também da plataforma Udemy:
+Com o repositório já vinculado ao VSCode, dei inicio a Etapa 4.1 do Desafio Final, criei o arquivo processamento_de_vendas.sh e segui as instruções passadas no slide do desafio utilizando os comandos que aprendi no curso de Linux da Udemy juntamente com informações sobre shell que obti assistindo as aulas de um curso de Shell também da plataforma Udemy:
 
 ![Evidencia 3](evidencias/evidencia_3.webp)  
 [Evidencia 3](evidencias/evidencia_3.webp)
