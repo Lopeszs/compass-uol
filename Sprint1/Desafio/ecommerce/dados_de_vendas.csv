@@ -1,0 +1,90 @@
+id,produto,quantidade,preço,data
+1,smart TV 4K,4,2500.00,01/04/2024
+2,geladeira duplex,2,3000.00,02/04/2024
+3,micro-ondas,6,400.00,03/04/2024
+4,fogão 4 bocas,3,1200.00,04/04/2024
+5,liquidificador,8,150.00,05/04/2024
+6,ar-condicionado,5,1800.00,06/04/2024
+7,ventilador de teto,7,350.00,07/04/2024
+8,máquina de lavar,3,2000.00,08/04/2024
+9,secadora de roupas,2,1500.00,09/04/2024
+10,aspirador robô,4,800.00,10/04/2024
+11,ferro de passar,10,200.00,11/04/2024
+12,torradeira,9,120.00,12/04/2024
+13,sanduicheira,8,80.00,13/04/2024
+14,forno elétrico,5,600.00,14/04/2024
+15,cafeteira expresso,6,700.00,15/04/2024
+16,purificador de água,7,900.00,16/04/2024
+17,exaustor de cozinha,3,400.00,17/04/2024
+18,batedeira,4,350.00,18/04/2024
+19,panelas elétricas,6,250.00,19/04/2024
+20,smartwatch,9,1000.00,20/04/2024
+21,câmera de segurança,8,600.00,21/04/2024
+22,caixa de som portátil,10,450.00,22/04/2024
+23,notebook gamer,2,7500.00,23/04/2024
+24,teclado ergonômico,7,250.00,24/04/2024
+25,mouse vertical,8,200.00,25/04/2024
+26,monitor 27 polegadas,4,1500.00,26/04/2024
+27,modem Wi-Fi 6,5,600.00,27/04/2024
+28,repetidor Wi-Fi,10,180.00,28/04/2024
+29,impressora a laser,3,1200.00,29/04/2024
+30,câmera instantânea,6,400.00,30/04/2024
+31,fone de ouvido Bluetooth,9,500.00,01/05/2024
+32,tablet com caneta,4,3500.00,02/05/2024
+33,smartphone Android,5,2500.00,03/05/2024
+34,carregador rápido,7,150.00,04/05/2024
+35,cabo USB,20,50.00,05/05/2024
+36,adaptador de tomada,15,35.00,06/05/2024
+37,extensão elétrica,12,40.00,07/05/2024
+38,protetor de tela,25,30.00,08/05/2024
+39,case para smartphone,18,90.00,09/05/2024
+40,power bank,10,250.00,10/05/2024
+41,controle remoto universal,8,120.00,11/05/2024
+42,console de videogame,3,3500.00,12/05/2024
+43,controle sem fio,7,300.00,13/05/2024
+44,jogo de videogame,10,250.00,14/05/2024
+45,volante para videogame,4,700.00,15/05/2024
+46,cadeira ergonômica,5,1500.00,16/05/2024
+47,máquina de café,6,900.00,17/05/2024
+48,geladeira portátil,2,400.00,18/05/2024
+49,aspirador portátil,7,250.00,19/05/2024
+50,peneira elétrica,3,180.00,20/05/2024
+51,fogão elétrico,2,950.00,21/05/2024
+52,exaustor,6,400.00,22/05/2024
+53,termômetro digital,12,90.00,23/05/2024
+54,umidificador de ar,8,300.00,24/05/2024
+55,secador de cabelo,9,250.00,25/05/2024
+56,prancha de cabelo,10,300.00,26/05/2024
+57,escova modeladora,7,150.00,27/05/2024
+58,babyliss,6,200.00,28/05/2024
+59,bomba de infusão,4,600.00,29/05/2024
+60,termômetro de ouvido,8,150.00,30/05/2024
+61,balança digital,5,120.00,31/05/2024
+62,oxímetro,12,80.00,01/06/2024
+63,monitor de pressão,7,350.00,02/06/2024
+64,aquecedor de ambiente,6,500.00,03/06/2024
+65,ventilador de torre,4,350.00,04/06/2024
+66,climatizador de ar,5,700.00,05/06/2024
+67,conjunto de talheres,12,250.00,06/06/2024
+68,conjunto de panelas,8,450.00,07/06/2024
+69,facas de cozinha,10,200.00,08/06/2024
+70,liquidificador industrial,3,1200.00,09/06/2024
+71,forno a gás,2,3000.00,10/06/2024
+72,pipoqueira elétrica,7,150.00,11/06/2024
+73,descascador de legumes,15,30.00,12/06/2024
+74,maquininha de cartão,8,250.00,13/06/2024
+75,relogio inteligente,6,1800.00,14/06/2024
+76,balance board,4,250.00,15/06/2024
+77,tapete de yoga,10,90.00,16/06/2024
+78,halteres,8,300.00,17/06/2024
+79,bicicleta ergométrica,3,1500.00,18/06/2024
+80,esteira elétrica,2,4000.00,19/06/2024
+81,kit de jump,7,350.00,20/06/2024
+82,barras de exercício,9,200.00,21/06/2024
+83,bolas de pilates,10,150.00,22/06/2024
+84,elásticos de resistência,12,100.00,23/06/2024
+85,rolos de espuma,8,80.00,24/06/2024
+86,corda de pular,15,50.00,25/06/2024
+87,bike spinning,3,2500.00,26/06/2024
+88,kit de hidratação,10,120.00,27/06/2024
+
