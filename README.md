@@ -1,6 +1,6 @@
 ## Apresentação
 
-<img src="img/eu.jpeg" width="200" height="270">  
+<img src="img/Eu.jpeg" width="200" height="270">  
 <br><br>
 
 Olá, me chamo **Isabela Fernandes Lopes**, tenho 18 anos e moro em Campo Grande - MS. Me formei Técnica em Informática em 2023 pelo IFMS
