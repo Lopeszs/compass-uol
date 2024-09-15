@@ -3,7 +3,7 @@ Iniciei o desafio normalizando a tabela tb_locacao de uma concessionária na mod
 
 Para deixar a tabela na primeira forma normal não foi preciso alterações, pois ela já foi dada na 1FN, cada campo possui um único valor atômico e não há atributos multivalorados ou compostos.
 
-Já para deixar a tabela na segunda forma normal, identifiquei todos os atributos que não dependem da chave primária da tabela (idLocacao) e criei novas entidades para eles, assim, criei as entidades: tbCliente, tbCarro, tbCombustivel e tbVendedor. Após criadas as novas tabelas, aloquei os atributos em suas respectivas tabelas e identifiquei em cada uma a chave primária, de modo que os atributos sejam funcionalmente dependentes dela:
+Já para deixar a tabela na segunda forma normal, identifiquei todos os atributos que não dependem da chave primária da tabela (idLocacao) e criei novas entidades para eles, sendo assim, criei as entidades: tbCliente, tbCarro, tbCombustivel e tbVendedor. Após criadas as novas tabelas, aloquei os atributos em suas respectivas tabelas e identifiquei em cada uma a chave primária, de modo que os atributos sejam funcionalmente dependentes dela:
 
 ![Evidencia 1](evidencias/evidencia_1.webp)  
 [Evidencia 1](evidencias/evidencia_1.webp)  
