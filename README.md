@@ -35,10 +35,26 @@ O curso de Python começou com uma introdução à linguagem e a configuração 
 **AWS Partner: Cloud Economics**  
 O curso AWS Partner: Cloud Economics focou em como maximizar o valor econômico da nuvem para empresas. Comecei aprendendo sobre os princípios fundamentais da economia da nuvem e como a AWS pode ajudar a otimizar custos. Estudei as melhores práticas para calcular o custo total de propriedade (TCO) e analisar os benefícios financeiros da migração para a nuvem. O curso abordou técnicas para avaliar e controlar gastos com recursos, utilizar ferramentas de monitoramento e implementar estratégias de otimização. Também explorei casos de sucesso e estudos de caso que demonstraram como outras empresas reduziram custos e melhoraram a eficiência com a AWS. O treinamento incluiu a compreensão de diferentes modelos de precificação da AWS e a construção de uma estratégia de custo efetiva alinhada aos objetivos de negócios.
 
+___
+
+ ### **Sprint 4**
+ **Docker**  
+ O curso de Docker começou com uma introdução aos conceitos de containers e à configuração do ambiente. Aprendi a criar e gerenciar containers, explorando como funcionam e como remover ou otimizar suas imagens. Em seguida, estudei volumes para persistir dados e o uso de networks para conectar containers de forma segura. O curso cobriu YAML para configurar containers e Docker Compose, facilitando o gerenciamento de múltiplos containers em aplicações complexas. Também aprendi sobre Docker Swarm para orquestração de clusters e, por fim, uma introdução ao Kubernetes para gerenciar containers em grande escala e automatizar operações de orquestração.
+
+ **Programação funcional com Python**  
+ A seção de Programação Funcional com Python apresentou os conceitos principais desse paradigma, como o uso de funções como blocos fundamentais. Aprendi sobre funções de primeira classe, lambdas e funções de alta ordem como map(), filter(), e reduce() para manipular coleções de dados de forma eficiente. Também explorei o uso de imutabilidade e recursão, criando código mais previsível e simplificado, seguindo o estilo funcional de desenvolvimento.
+
+ **AWS Partner: Accreditation (Technical)**  
+ O curso de AWS Partner Accreditation (Technical) forneceu uma visão abrangente dos serviços e soluções da AWS. Começou com uma introdução à plataforma AWS, abordando a arquitetura e os principais serviços, como EC2, S3, e RDS. Aprofundei-me em práticas recomendadas para implementar e gerenciar soluções escaláveis e seguras na nuvem. O curso também cobriu tópicos avançados, como automação com AWS Lambda, gestão de identidade e acesso com IAM, e integração de serviços usando APIs e SDKs. Além disso, aprendi sobre estratégias de otimização de custos e monitoramento com CloudWatch, garantindo a eficiência e o desempenho das aplicações na AWS.
+
+**Estatística Descritiva com Python**  
+ O curso de Estatística Descritiva com Python na Udemy começou com uma introdução aos conceitos básicos de estatística e à configuração do ambiente de desenvolvimento. Aprofundei-me nos fundamentos da estatística, entendendo como coletar, organizar e interpretar dados. Explorei representações gráficas, como histogramas e gráficos de dispersão, para visualizar e analisar dados. O curso abordou medidas de tendência central, como média, mediana e moda, e medidas de dispersão, incluindo variância e desvio padrão, para descrever a variabilidade dos dados. Também estudei medidas de assimetria para entender a distribuição dos dados. Por fim, apliquei esses conceitos em Data Science, usando Python para realizar análises estatísticas e extrair insights de conjuntos de dados.
+ 
 ## Sprints 
 
 1. [Sprint 1](Sprint1/README.md)
 2. [Sprint 2](Sprint2/README.md)
 3. [Sprint 3](Sprint3/README.md)
+4. [Sprint 4](Sprint4/README.md)
 
 ___
