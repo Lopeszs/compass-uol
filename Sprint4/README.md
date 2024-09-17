@@ -1,6 +1,5 @@
 # Exercícios
 
-
 1. [Exercicio 1.](exercicios/exercicio_1.py)
 2. [Exercicio 2.](exercicios/exercicio_2.py)
 3. [Exercicio 3.](exercicios/exercicio_3.py)
@@ -10,8 +9,8 @@
 7. [Exercicio 7.](exercicios/exercicio_7.py)
 <br></br>
 
-# Certificados
 
+# Certificados
 
 - Métodos ágeis de A a Z: o curso completo
 ![Métodos ágeis de A a Z: o curso completo](certificados/metodos_ageis.jpg)<br></br>

@@ -10,7 +10,7 @@ while True:
         break
     
     # Gera o hash da entrada inserida
-    texto_hash = hashlib.sha1(entrada.encode()).hexdigest()
+    texto_hash = hashlib.sha1(entrada.encode('utf-8', errors='ignore')).hexdigest()
     
     # Imprime o hash gerado
     print(f"Hash do texto inserido: {texto_hash}\n")
