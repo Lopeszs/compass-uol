@@ -49,6 +49,18 @@ ___
 
 **Estatística Descritiva com Python**  
  O curso de Estatística Descritiva com Python na Udemy começou com uma introdução aos conceitos básicos de estatística e à configuração do ambiente de desenvolvimento. Aprofundei-me nos fundamentos da estatística, entendendo como coletar, organizar e interpretar dados. Explorei representações gráficas, como histogramas e gráficos de dispersão, para visualizar e analisar dados. O curso abordou medidas de tendência central, como média, mediana e moda, e medidas de dispersão, incluindo variância e desvio padrão, para descrever a variabilidade dos dados. Também estudei medidas de assimetria para entender a distribuição dos dados. Por fim, apliquei esses conceitos em Data Science, usando Python para realizar análises estatísticas e extrair insights de conjuntos de dados.
+
+___
+
+ ### **Sprint 5**  
+**AWS Certified Cloud Practitioner**  
+O curso de AWS Certified Cloud Practitioner proporcionou uma compreensão fundamental dos serviços e conceitos da AWS. Iniciei com uma introdução à nuvem e à plataforma AWS, explorando a arquitetura de nuvem e os principais serviços, como EC2, S3 e RDS. O curso abordou os princípios de segurança, gerenciamento e compliance, além de práticas recomendadas para a implementação de soluções eficazes na nuvem. Aprofundei-me em tópicos como o modelo de responsabilidade compartilhada, as ferramentas de gerenciamento de custos e a importância do AWS Well-Architected Framework. Também aprendi sobre as ofertas de suporte da AWS e como aplicar esse conhecimento para auxiliar na tomada de decisões estratégicas em projetos de nuvem. Todo o conhecimento adquirido no curso será utilizado na prova de certificação da AWS 
+
+
+**AWS Cloud Quest: Cloud Practitioner**
+O jogo AWS Cloud Quest: Cloud Practitioner ofereceu uma experiência interativa e envolvente para aprender sobre os fundamentos da computação em nuvem e os serviços da AWS. Através de uma narrativa imersiva, explorei diversos cenários e desafios que refletem situações do mundo real, permitindo a aplicação prática dos conceitos aprendidos. O jogo abordou tópicos como segurança na nuvem, arquitetura de soluções, e os principais serviços da AWS, como EC2, S3 e DynamoDB. Ao completar as missões, desenvolvi habilidades essenciais para trabalhar com a nuvem, além de uma compreensão mais profunda do ecossistema AWS. Essa abordagem gamificada facilitou o meu aprendizado, tornando o processo de adquirir conhecimento mais dinâmico e divertido.
+
+
  
 ## Sprints 
 
@@ -56,5 +68,6 @@ ___
 2. [Sprint 2](Sprint2/README.md)
 3. [Sprint 3](Sprint3/README.md)
 4. [Sprint 4](Sprint4/README.md)
+5. [Sprint 5](Sprint5/README.md)
 
 ___
