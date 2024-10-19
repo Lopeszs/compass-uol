@@ -60,6 +60,36 @@ O curso de AWS Certified Cloud Practitioner proporcionou uma compreensão fundam
 **AWS Cloud Quest: Cloud Practitioner**  
 O jogo AWS Cloud Quest: Cloud Practitioner ofereceu uma experiência interativa e envolvente para aprender sobre os fundamentos da computação em nuvem e os serviços da AWS. Através de uma narrativa imersiva, explorei diversos cenários e desafios que refletem situações do mundo real, permitindo a aplicação prática dos conceitos aprendidos. O jogo abordou tópicos como segurança na nuvem, arquitetura de soluções, e os principais serviços da AWS, como EC2, S3 e DynamoDB. Ao completar as missões, desenvolvi habilidades essenciais para trabalhar com a nuvem, além de uma compreensão mais profunda do ecossistema AWS. Essa abordagem gamificada facilitou o meu aprendizado, tornando o processo de adquirir conhecimento mais dinâmico e divertido.
 
+___
+
+ ### **Sprint 6**  
+**Fundamentals of Analytics on AWS**  
+O curso de Fundamentals of Analytics on AWS apresentou os principais serviços de análise de dados da AWS, como Amazon S3, AWS Glue, Amazon Athena e Amazon Redshift. Abordou desde a ingestão e processamento de dados até consultas e visualizações interativas com o Amazon QuickSight. Além disso, destacou práticas recomendadas de desempenho, segurança e otimização de custos no gerenciamento de dados na nuvem.
+
+**Serverless Analytics**  
+O curso de Serverless Analytics abordou como usar serviços AWS como Lambda, S3, Kinesis e Athena para análises de dados sem gerenciar servidores. Focou em pipelines de dados escaláveis, consultas, e visualizações com Amazon QuickSight, além de destacar eficiência de custos e segurança em soluções serverless.
+
+**Introduction to Amazon Athena**  
+O curso de Introduction to Amazon Athena ensinou como usar o Amazon Athena para realizar consultas SQL diretamente em dados armazenados no Amazon S3. Abordou como configurar o Athena, criar e otimizar consultas, além de integrar com outros serviços da AWS. O curso destacou a simplicidade de uso, sem necessidade de infraestrutura, e a eficiência na análise de grandes volumes de dados.
+
+**AWS Glue Getting Started**  
+O curso de AWS Glue Getting Started apresentou os fundamentos do AWS Glue para criação de pipelines de ETL (Extração, Transformação e Carga) automatizados. Abordou como configurar jobs, catalogar dados e transformar informações para análises. O curso destacou a facilidade de integração com outros serviços da AWS e a eficiência na preparação de dados em larga escala.
+
+**Amazon EMR Getting Started**  
+O curso de Amazon EMR Getting Started abordou como usar o Amazon EMR para processar grandes volumes de dados com frameworks como Apache Hadoop e Spark. Explicou como configurar e gerenciar clusters, executar jobs de análise de dados e otimizar o desempenho. O curso também destacou a escalabilidade e a integração com outros serviços da AWS para processamento eficiente.
+
+**Getting Started with Amazon Redshift**  
+O curso de Getting Started with Amazon Redshift ensinou os fundamentos de como configurar e usar o Amazon Redshift para criar data warehouses escaláveis. Abordou a ingestão de dados, consultas SQL eficientes e otimização de desempenho. O curso também destacou práticas para gerenciamento de clusters e integração com outros serviços da AWS para análises avançadas de dados.
+
+**Best Practices for Data Warehousing with Amazon Redshift**  
+O curso de Best Practices for Data Warehousing with Amazon Redshift destacou as melhores práticas para otimizar o desempenho do Redshift, incluindo modelagem de dados, particionamento, distribuição e compressão. Também abordou estratégias de monitoramento, segurança e gerenciamento de custos para operações eficazes na plataforma.
+
+**Amazon QuickSight - Getting Started**  
+O curso de Amazon QuickSight - Getting Started apresentou os fundamentos do Amazon QuickSight para visualização de dados. Abordou como conectar fontes de dados, criar dashboards interativos e utilizar visualizações gráficas. O curso também destacou a facilidade de uso da ferramenta e suas capacidades de análise em tempo real, permitindo insights rápidos e acessíveis.
+
+___
+
+ ### **Sprint 7**  
 
  
 ## Sprints 
@@ -69,5 +99,7 @@ O jogo AWS Cloud Quest: Cloud Practitioner ofereceu uma experiência interativa 
 3. [Sprint 3](Sprint3/README.md)
 4. [Sprint 4](Sprint4/README.md)
 5. [Sprint 5](Sprint5/README.md)
+6. [Sprint 6](Sprint6/README.md)
+7. [Sprint 7](Sprint7/README.md)
 
 ___
