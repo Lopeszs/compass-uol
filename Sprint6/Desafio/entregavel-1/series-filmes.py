@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Caminho do arquivo zip no repositório
+# Caminho do arquivo zip 
 zip_file_path = "filmes-series.zip"
 
 # Função para extrair os arquivos do arquivo ZIP
@@ -15,11 +15,10 @@ def extract_zip(zip_file, extract_to="."):
 # Extrair o arquivo zip na pasta atual
 extract_zip(zip_file_path)
 
-# Agora os arquivos movies.csv e series.csv estarão disponíveis
+# Caminhos dos arquivos CSV extraídos
 movies_file_path = "movies.csv"
 series_file_path = "series.csv"
 
-# O resto do seu código continua igual
 # Carrega variáveis de ambiente do arquivo .env (credenciais)
 load_dotenv()
 
@@ -27,13 +26,13 @@ load_dotenv()
 aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
 aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 aws_session_token = os.getenv("AWS_SESSION_TOKEN")
-bucket_name = "data-lake-filmes-series"
-raw_zone = "Raw"
-local_source = "Local"
-data_format = "CSV"
-movies_folder = "Movies"
-series_folder = "Series"
-current_date = datetime.now().strftime("%Y/%m/%d")
+bucket_name = "data-lake-filmes-series" # Nome do Bucket
+raw_zone = "Raw" # Nome da zona RAW no S3
+local_source = "Local" # Fonte local dos arquivos a serem enviados
+data_format = "CSV" # Formato dos arquivos
+movies_folder = "Movies" # Pasta para armazenar arquivos de filmes
+series_folder = "Series" # Pasta para armazenar arquivos de séries
+current_date = datetime.now().strftime("%Y/%m/%d") # Formata a data atual para "YYYY/MM/DD"
 
 # Configuração do cliente S3 com boto3
 s3 = boto3.client("s3",
@@ -45,11 +44,11 @@ s3 = boto3.client("s3",
 def upload_file_to_s3(file_path, bucket, destination_path):
     s3.upload_file(file_path, bucket, destination_path)
 
-# Definir os caminhos no S3 com base no padrão de armazenamento
+# Define os caminhos no S3 para os arquivos, seguindo o padrão de armazenamento
 s3_movies_path = os.path.join(raw_zone, local_source, data_format, movies_folder, current_date, "movies.csv")
 s3_series_path = os.path.join(raw_zone, local_source, data_format, series_folder, current_date, "series.csv")
 
-# Fazer o upload dos arquivos CSV para o S3
+# Faz o upload dos arquivos CSV para o S3 utilizando a função
 upload_file_to_s3(movies_file_path, bucket_name, s3_movies_path)
 upload_file_to_s3(series_file_path, bucket_name, s3_series_path)
 
