@@ -7,7 +7,7 @@
 5. [Exercicio 5.](exercicios/exercicio_5.py)
 6. [Exercicio 6.](exercicios/exercicio_6.py)
 7. [Exercicio 7.](exercicios/exercicio_7.py)
-<br></br>
+<br></br> 
 
 
 # Certificados
