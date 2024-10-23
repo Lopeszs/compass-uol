@@ -15,14 +15,10 @@ def extract_zip(zip_file, extract_to="."):
 # Extrair o arquivo zip na pasta atual
 extract_zip(zip_file_path)
 
-# Caminhos dos arquivos CSV extraídos
-movies_file_path = "movies.csv"
-series_file_path = "series.csv"
-
 # Carrega variáveis de ambiente do arquivo .env (credenciais)
 load_dotenv()
 
-# Definição das variáveis de configuração
+# Definição das variáveis
 aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
 aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 aws_session_token = os.getenv("AWS_SESSION_TOKEN")
@@ -33,6 +29,10 @@ data_format = "CSV" # Formato dos arquivos
 movies_folder = "Movies" # Pasta para armazenar arquivos de filmes
 series_folder = "Series" # Pasta para armazenar arquivos de séries
 current_date = datetime.now().strftime("%Y/%m/%d") # Formata a data atual para "YYYY/MM/DD"
+
+# Caminhos dos arquivos CSV extraídos
+movies_file_path = "movies.csv"
+series_file_path = "series.csv"
 
 # Configuração do cliente S3 com boto3
 s3 = boto3.client("s3",

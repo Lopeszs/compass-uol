@@ -12,3 +12,6 @@ RUN pip install boto3 python-dotenv
 
 # Define o comando padrão para executar o script Python
 CMD ["python", "filmes-series.py"]
+
+
+
