@@ -44,7 +44,7 @@ s3 = boto3.client("s3",
 def upload_file_to_s3(file_path, bucket, destination_path):
     s3.upload_file(file_path, bucket, destination_path)
 
-# Define os caminhos no S3 para os arquivos, seguindo o padrão de armazenamento
+# Define os caminhos no S3 para os arquivos, seguindo o padrão de armazenamento 
 s3_movies_path = os.path.join(raw_zone, local_source, data_format, movies_folder, current_date, "movies.csv")
 s3_series_path = os.path.join(raw_zone, local_source, data_format, series_folder, current_date, "series.csv")
 
