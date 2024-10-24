@@ -44,6 +44,9 @@
 **3.7 Compactando arquivos**  
 ![Etapa3.7](exercicios/Lab_AWS_Lambda/etapa_3.7.webp)<br></br>
 
+**3.8 Copiando arquivo para máquina**  
+![Etapa3.8](exercicios/Lab_AWS_Lambda/etapa_3.8.webp)<br></br>
+
 **3.9 Upload do arquivo compactado no S3**  
 ![Etapa3.9](exercicios/Lab_AWS_Lambda/etapa_3.9.webp)<br></br>
 
