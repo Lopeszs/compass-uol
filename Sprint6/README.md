@@ -92,4 +92,4 @@
 ![Amazon QuickSight - Getting Started](certificados/Amazon_QuickSight-Getting_Started.jpg)<br></br>
 
 - Data & Analytics - PB - AWS - Novo - 6/10
-![Amazon QuickSight - Getting Started](certificados/Data&Analytics6.jpg)<br></br>
+![Data & Analytics - PB - AWS - Novo - 6/10](certificados/Data&Analytics6.jpg)<br></br>
