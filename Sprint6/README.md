@@ -76,7 +76,7 @@
 - Introduction to Amazon Athena
 ![Introduction to Amazon Athena](certificados/Introduction_to_Amazon_Athena.jpg)<br></br>
 
-- AWS Glue Getting Started
+- AWS Glue Getting Started 
 ![AWS Glue Getting Started](certificados/AWS_Glue_Getting_Started.jpg)<br></br>
 
 - Amazon EMR Getting Started
