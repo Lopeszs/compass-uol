@@ -25,7 +25,7 @@ O arquivo CSV conta com dados como:
 
 O arquivo pode ser consultado aqui: [Arquivo CSV](COLSULTA_DADOS_ABERTOS_PRODUTO_FUMIGENO.csv)<br></br>
 
-Após escolher o conjunto de dados, criei um script Python e importei as bibliotecas necessárias, como pandas e boto3, além de bibliotecas para acessar minha conta AWS. Também criei um arquivo .env onde as chaves de acesso foram configuradas como variáveis de ambiente. Para configurar o cliente S3 com boto3, desenvolvi uma função que utiliza essas variáveis de ambiente:
+Após escolher o conjunto de dados, criei um script Python e importei as bibliotecas necessárias, como pandas e boto3, além de bibliotecas para acessar minha conta AWS. Também criei um arquivo .env onde as chaves de acesso foram configuradas como variáveis de ambiente. Utilizei essas variáveis de ambiente para criar um cliente do serviço S3 usando o boto3.client:
 
 ![Evidencia 3](../evidencias/evidencia_11.webp)<br></br>
 
