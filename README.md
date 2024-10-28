@@ -91,6 +91,9 @@ ___
 
  ### **Sprint 7**  
 
+ **Spark com Pyspark**  
+ O curso de Spark com PySpark começou com uma introdução ao Spark e a preparação do ambiente. Aprendi a manipular grandes volumes de dados usando DataFrames e RDDs, e depois a realizar consultas com Spark SQL, o que facilitou bastante o trabalho com dados estruturados. Em seguida, comecei a criar aplicações práticas e a otimizar o desempenho delas, aprendendo truques e técnicas para tornar os processos mais rápidos e eficientes. Ademais, explorei outros aspectos avançados do Spark, que mostraram como ele pode ser aplicado em várias situações no mundo do Big Data.
+
  
 ## Sprints 
 
