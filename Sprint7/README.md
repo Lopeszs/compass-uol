@@ -44,6 +44,30 @@ O código pode ser verificado [aqui](exercicios/Lab_AWS_Glue/script.py)
 
 ## Apache Spark - Contador de Palavras
 
+### Etapa 1: Realizar o pull da imagem jupyter/all-spark-notebook
+![Etapa1](exercicios/Apache_Spark/etapa_1.webp)<br></br>
+
+### Etapa 2: Criar um container a partir da imagem
+![Etapa2](exercicios/Apache_Spark/etapa_2.webp)<br></br>
+
+#### Acessando o Jupyter Lab
+![Etapa2.1](exercicios/Apache_Spark/etapa_2.1.webp)<br></br>
+
+### Etapa 3: Acessando o terminal do container
+![Etapa3](exercicios/Apache_Spark/etapa_3.webp)<br></br>
+
+### Etapa 4: Contar palavras no README.md do repositório Git
+
+Primeiramente, no terminal do container em execução, usei o comando curl -O (URL do README.md no Git), incluindo o token temporário, para baixar o arquivo README.md para o container. Após o download, usei o comando cat para verificar se o arquivo foi baixado corretamente:
+![Etapa4](exercicios/Apache_Spark/etapa_4.webp)<br></br>
+
+Com o arquivo baixado com sucesso, iniciei o PySpark para realizar a análise no README.md:
+![Etapa4.1](exercicios/Apache_Spark/etapa_4.1.webp)<br></br>
+
+Em seguida, inseri a sequência de comandos Spark necessários para contar as ocorrências de cada palavra presente no arquivo README.md e obtive um resultado satisfatório:
+![Etapa4.2](exercicios/Apache_Spark/etapa_4.2.webp)<br></br>
+
+O script python também foi testado no jupyter Lab, o código e os resultados podem ser conferidos [aqui](exercicios/Apache_Spark/script.ipynb)
 
 # Certificados
 
