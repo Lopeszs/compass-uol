@@ -1,13 +1,13 @@
 # Análise do Desafio
 
-Popularidade de atores em filmes e séries de comédia/animação com base no número de votos e nota média de filmes lançados a partir de 1990.
+Popularidade de atores em filmes de comédia/animação com base no número de votos e nota média de filmes lançados a partir de 1990.
 
 ## Sobre o que se trata?
 
-Esta análise busca explorar a relação entre a popularidade de atores e atrizes em filmes e séries de comédia e animação e a recepção desses conteúdos por parte do público e da crítica. Através dos dados disponíveis, serão investigadas as seguintes questões:
+Esta análise busca explorar a relação entre a popularidade de atores e atrizes em filmes de comédia e animação e a recepção desses conteúdos por parte do público e da crítica. Através dos dados disponíveis, serão investigadas as seguintes questões:
 
-- Quais atores ou atrizes aparecem com maior frequência em filmes e séries de comédia/animados lançados após 1990.
-- Se há uma correlação entre a participação desses atores e o sucesso dos filmes, com base no número de votos e na nota média obtida.
+- Quais atores ou atrizes aparecem com maior frequência em filmes de comédia/animados lançados após 1990.
+- Se há uma correlação entre a participação desses atores e o sucesso dos filmes, com base no número de votos e na nota média obtida. (Numero de votos > 100 e Nota média > 7.0)
 - Como a qualidade dos filmes, representada pela nota média, está relacionada à popularidade dos atores, medida pelo número de votos recebidos.
 
 ## Qual a motivação da análise?

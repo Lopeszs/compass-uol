@@ -16,10 +16,15 @@ def lambda_handler(event=None, context=None):
     objeto = S3_CLIENT.get_object(Bucket=BUCKET, Key='Raw/Local/CSV/Movies/2024/10/23/movies.csv')
     filmes_imdb = pd.read_csv(objeto['Body'], sep='|', low_memory=False)
 
-    # Retira filmes duplicados com base em seus IDs e filtra o gênero desejado
+    # Retira filmes duplicados com base em seus IDs
     filmes_imdb = filmes_imdb.drop_duplicates(subset=['id'])
     filmes_imdb['anoLancamento'] = filmes_imdb['anoLancamento'].replace('\\N', '0')
-    imdb_filtro = filmes_imdb[filmes_imdb.genero.str.contains("Animation|Comedy", regex=True)]
+
+    # Filtro para filmes de comédia lançados a partir de 1990
+    imdb_filtro = filmes_imdb[
+        (filmes_imdb.genero.str.contains("Animation|Comedy", regex=True)) &
+        (filmes_imdb['anoLancamento'].astype(int) >= 1990)
+    ]
 
     tmdb_data = []  # Lista para armazenar os dados do TMDB
     file_index = 0  # Contador de arquivos
