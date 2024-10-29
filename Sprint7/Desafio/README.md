@@ -51,3 +51,7 @@ Com tudo configurado, carreguei o código na função e executei um teste para g
 O resultado foi satisfatório, com os registros de filmes do gênero comédia/animação lançados a partir de 1990 sendo salvos em arquivos JSON e carregados no bucket S3:
 
 ![Evidencia 13](../evidencias/evidencia_13.webp)<br></br>
+
+Exemplo do conteúdo de um arquivo .json gerado: 
+
+![Evidencia 14](../evidencias/evidencia_14.webp)<br></br>
