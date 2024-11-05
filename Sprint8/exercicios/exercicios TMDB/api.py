@@ -31,3 +31,10 @@ for movie in data['results']:
 df = pd.DataFrame(filmes)
 display(df)
 
+
+
+
+
+
+
+
