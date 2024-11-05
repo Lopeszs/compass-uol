@@ -94,6 +94,14 @@ ___
  **Spark com Pyspark**  
  O curso de Spark com PySpark começou com uma introdução ao Spark e a preparação do ambiente. Aprendi a manipular grandes volumes de dados usando DataFrames e RDDs, e depois a realizar consultas com Spark SQL, o que facilitou bastante o trabalho com dados estruturados. Em seguida, comecei a criar aplicações práticas e a otimizar o desempenho delas, aprendendo truques e técnicas para tornar os processos mais rápidos e eficientes. Ademais, explorei outros aspectos avançados do Spark, que mostraram como ele pode ser aplicado em várias situações no mundo do Big Data.
 
+ ___
+
+ ### **Sprint 8**  
+
+ **Tutoriais Técnicos**  
+ Os tutoriais técnicos da AWS começaram com uma introdução sobre como transformar dados em insights valiosos. Explorei o AWS Glue para catalogar e transformar dados, criando fluxos de trabalho ETL eficientes e escaláveis. Em seguida, aprendi a usar o AWS Athena para consultar grandes volumes de dados diretamente no S3, facilitando a análise sem a necessidade de um banco de dados tradicional. Finalmente, com o Amazon QuickSight, visualizei os dados transformados, criando dashboards interativos que proporcionaram uma visão clara e rápida dos resultados das análises. Cada tutorial mostrou uma parte essencial do ciclo de dados, integrando etapas para manipulação, consulta e visualização.
+ 
+
  
 ## Sprints 
 
@@ -104,5 +112,6 @@ ___
 5. [Sprint 5](Sprint5/README.md)
 6. [Sprint 6](Sprint6/README.md)
 7. [Sprint 7](Sprint7/README.md)
+8. [Sprint 8](Sprint8/README.md)
 
 ___
