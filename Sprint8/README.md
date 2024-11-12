@@ -31,9 +31,10 @@
 ![Etapa3_TMDB](evidencias/evidencia_3.webp)<br></br>
 
 
-**## Exercícios Spark Batch**
+## Exercícios Spark Batch
 
-**### Geração e massa de dados**
+### Geração e massa de dados
+
 ### Etapa 1: Lista contendo 250 inteiros aleatórios.
 ![Etapa1_Dados](evidencias/evidencia_4.webp)<br></br>
 
@@ -52,7 +53,8 @@
 ### Etapa 3: Resultado da execução
 ![Etapa3.1_Dados](evidencias/evidencia_9.webp)<br></br>
 
-**### Apache Spark**
+### Apache Spark
+
 ### Etapa 1
 ![Etapa1_ApacheSpark](evidencias/evidencia_10.webp)<br></br>
 
