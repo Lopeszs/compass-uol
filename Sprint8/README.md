@@ -19,7 +19,7 @@
 
 # Evidencias
 
-**## Exercício TMDB**
+## Exercício TMDB
 
 ### Etapa 1: Criando a conta TMDB
 ![Etapa1_TMDB](evidencias/evidencia_1.webp)<br></br>
