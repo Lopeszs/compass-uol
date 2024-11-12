@@ -62,7 +62,7 @@ Primeiramente, no terminal do container em execução, usei o comando curl -O (U
 ![Etapa4](exercicios/Apache_Spark/etapa_4.webp)<br></br>
 
 Com o arquivo baixado com sucesso, iniciei o PySpark para realizar a análise no README.md:
-![Etapa4.1](exercicios/Apache_Spark/etapa_4.1.webp)<br></br>
+![Etapa4.1](exercicios/Apache_Spark/etapa_4.1.webp)<br></br>  
 
 Em seguida, inseri a sequência de comandos Spark necessários para contar as ocorrências de cada palavra presente no arquivo README.md e obtive um resultado satisfatório:
 ![Etapa4.2](exercicios/Apache_Spark/etapa_4.2.webp)<br></br>
