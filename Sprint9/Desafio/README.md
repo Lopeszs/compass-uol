@@ -9,7 +9,7 @@ Com base nisso, criei:
 
 Com a modelagem pronta, configurei um Job no AWS Glue seguindo as instruções do desafio. Em seguida, comecei a escrever o script responsável pela criação das tabelas. O código pode ser consultado [aqui](refined.py).<br></br>
   
-No script, inicializei os contextos Spark e defini os caminhos das fontes de dados (camada Trusted) e dos destinos (camada Refined) para os arquivos no formato Parquet:
+No script, foram inicializados os contextos Spark e Glue por padrão e então eu defini os caminhos das fontes de dados (camada Trusted) e dos destinos (camada Refined) para os arquivos no formato Parquet:
 ![Evidencia 1](../evidencias/evidencia_1.webp)<br></br>
 
 
