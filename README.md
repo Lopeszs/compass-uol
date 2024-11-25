@@ -100,6 +100,12 @@ ___
 
  **Tutoriais Técnicos**  
  Os tutoriais técnicos da AWS começaram com uma introdução sobre como transformar dados em insights valiosos. Explorei o AWS Glue para catalogar e transformar dados, criando fluxos de trabalho ETL eficientes e escaláveis. Em seguida, aprendi a usar o AWS Athena para consultar grandes volumes de dados diretamente no S3, facilitando a análise sem a necessidade de um banco de dados tradicional. Finalmente, com o Amazon QuickSight, visualizei os dados transformados, criando dashboards interativos que proporcionaram uma visão clara e rápida dos resultados das análises. Cada tutorial mostrou uma parte essencial do ciclo de dados, integrando etapas para manipulação, consulta e visualização.
+
+  ___
+
+ ### **Sprint 9**  
+ 
+ Nesta sprint, aprofundei meus conhecimentos em processamento e transformação de dados utilizando ferramentas da AWS. Iniciei com a modelagem dimensional, estruturando dados para análises eficientes no Data Lake. Em seguida, usei o AWS Glue para criar Jobs que processaram e transformaram dados em fluxos ETL escaláveis, aplicando práticas de integração de dados entre múltiplas fontes. Aprimorei a persistência e catalogação de tabelas no Glue Data Catalog e realizei consultas avançadas no AWS Athena, validando a consistência e qualidade dos dados transformados.
  
 
  
@@ -113,5 +119,6 @@ ___
 6. [Sprint 6](Sprint6/README.md)
 7. [Sprint 7](Sprint7/README.md)
 8. [Sprint 8](Sprint8/README.md)
+9. [Sprint 9](Sprint9/README.md)
 
 ___
